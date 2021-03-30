@@ -78,7 +78,7 @@ namespace Knn_Iris
 
         private void btn_github_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/umanets-alexander/knn-iris");
+            System.Diagnostics.Process.Start("https://github.com/umanets-alexander/k-means-iris");
         }
     }
 }

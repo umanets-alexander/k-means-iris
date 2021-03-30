@@ -38,6 +38,7 @@ namespace Knn_Iris
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_github = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.richTextBoxResult = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@ namespace Knn_Iris
             this.TypeIris = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackbar_cluster)).BeginInit();
             this.panel2.SuspendLayout();
@@ -150,6 +150,14 @@ namespace Knn_Iris
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(433, 514);
             this.panel3.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(17, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(398, 55);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Экземпляр данных ирисов: ";
             // 
             // richTextBoxResult
             // 
@@ -289,14 +297,6 @@ namespace Knn_Iris
             this.label4.TabIndex = 0;
             this.label4.Text = "Данные ирисов:";
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(17, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(398, 55);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Экземпляр данных ирисов: ";
-            // 
             // FormIris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -310,7 +310,7 @@ namespace Knn_Iris
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormIris";
-            this.Text = "KNN Iris dataset";
+            this.Text = "K-means Iris dataset";
             this.Shown += new System.EventHandler(this.FormIris_Shown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
